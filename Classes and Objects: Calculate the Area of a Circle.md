@@ -12,8 +12,20 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 
-Add code here
+```
+import math
+class pen:
+    def stationary(self, radius):
+        area = math.pi * radius * radius
+        print(f"Area of circle: {area:.2f}")
+        
+r = float(input())
+obj = pen()
+obj.stationary(r)
+```
 
 ## Output
+<img width="1343" height="907" alt="image" src="https://github.com/user-attachments/assets/c5df6820-ad64-4cd3-bd2f-3c1aca5e2252" />
 
 ## Result
+Thus the given python program has been executed successfully.
